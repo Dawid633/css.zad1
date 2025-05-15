@@ -1,0 +1,46 @@
+body {
+    background: gray;
+}
+
+.pierwszy:first-letter {
+    font-size: 122pt; /* 110 + 12 (miesiąc urodzenia) */
+    color: orange; /* Kolor inicjału dla pierwszego akapitu: pomarańczowy */
+}
+
+.pierwszy {
+    font-size: 21pt; /* 15 + liczba liter imienia (5 liter w "Dawid") */
+    color: yellow; /* Kolor liter w akapicie po inicjale */
+}
+
+.drugi:first-letter {
+    font-size: 122pt; /* 110 + 12 (miesiąc urodzenia) */
+    color: lightgreen; /* Kolor inicjału dla drugiego akapitu: jasno zielony */
+}
+
+.drugi {
+    font-size: 18pt; /* 13 + liczba liter nazwiska (9 liter w "Ptaszyński") */
+    color: gold; /* Kolor liter w akapicie po inicjale */
+}
+
+.csspiekny::first-letter {
+    color: silver;
+    font-size: 120pt;
+}
+
+.csspiekny {
+    color: purple;
+    font-size: 35pt;
+}
+
+.ostatniakapit:first-letter {
+    font-size: 117pt;
+}
+
+.ostatniakapit:first-line {
+    color: yellow;
+}
+
+.ostatniakapit {
+    font-size: 20pt;
+    color: gold; /* Zmiana koloru bloku3 na złoty */
+}
